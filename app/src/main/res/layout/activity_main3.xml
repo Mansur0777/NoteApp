@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+<EditText
+    android:padding="10dp"
+    android:id="@+id/edittext1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="add name note here ..."
+    android:background="@drawable/bacround"
+    android:minLines="5"
+    android:gravity="start"></EditText>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button1"
+        android:text="save"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbacround"
+        android:layout_marginTop="15dp"></androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+
+</LinearLayout>
